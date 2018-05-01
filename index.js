@@ -2,8 +2,7 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 
-const token = "NDQwODMxMDU1Mzk4Njk5MDA4.DcorJw.7HFbLsXmWjQED4_0Q5Gb12aRKiQ";
-
+const token = procprocess.env.TOKEN
 
 
 var prefix = "m!";
